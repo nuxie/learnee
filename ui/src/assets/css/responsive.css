@@ -1,0 +1,217 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .navbar-nav .nav-item .nav-link {
+        margin-bottom: 10px;
+    }
+    .tutr_pro img {
+        margin-right: 5px;
+        width: 70px;
+    }
+    .tutr_pro h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .tutr_pro h6 {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .profile_txt p, .pro_rev_txt p, .tutr_pro p {
+        line-height: 20px;
+    }
+    .reviews_txt_head h6, .profile_txt h6, .pro_rev_txt h6, .pro_star h6 {
+        font-size: 16px;
+    }
+    .pro_star a i {
+        font-size: 10px;
+        padding: 0px 0px;
+    }
+    .tutor_reviews {
+        margin-bottom: 30px;
+    }
+    .profile_txt p, .pro_rev_txt p, .tutr_pro p {
+        text-align: justify;
+    }
+    .profile_txt_sec {
+        padding: 20px 0px;
+    }
+    .pie_chart {
+        position: relative;
+        left: -102px;
+        top: 0;
+    }
+    .reviews_txt_head .form-control {
+       
+        width: 160px;
+        font-size: 12px;
+    }
+    .footer_section {
+        background: #489fb5;
+        padding: 40px 0px 10px;
+    }
+    .ftr_list {
+        margin-top: 24px;
+    }
+    .brdr_top {
+        text-align: center;
+    }
+    .ftr_left {
+        text-align: center !important;
+    }
+    .modal_section .modal-dialog {
+        max-width: 300px;
+    }
+    .modalto_txt {
+        padding: 15px 10px;
+    }
+    .modaal_filup_btn button {
+        padding: 7px 40px !important;
+    }
+    .tutor_search,
+    .tutr_star {
+        margin-top: 20px;
+    }
+    .tutor_search .demo_search input {
+        width: 100%;
+    }
+    .tutor_search .demo_search span {
+        right: 16px;
+    }
+    .searc_tutor_head h3, .join_tutor_txt h3, .subject_head h3, .tutor_txt h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .tutor_box {
+        padding: 20px 2px 14px 15px;
+        margin-top: 24px;
+    }
+    .tutor_box img {
+        width: 50px;
+    }
+    .tutors_search_txt h6, .tutor_box h5 {
+        font-size: 14px;
+    }
+    .banner_txt {
+        padding: 35px 0px 0px;
+    }
+    .banner_txt h2 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .banner_txt h6 {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .demo_search input {
+        width: 100%;
+        font-size: 12px;
+    }
+    .demo_search span {
+        right: 9px;
+    }
+    .wave_shape img {
+        margin-top: -9px;
+    }
+    .tutor_txt {
+        margin-top: 30px;
+    }
+    .ftr_bg {
+        padding: 25px 10px;
+    }
+    .join_tutor_txt button {
+        margin-bottom: 27px;
+    }
+    .subject_section {
+        padding: 60px 0px 0px;
+    }
+    .pt_90{
+        padding-top: 90px;
+    }
+    .pt_40{
+        padding-top: 40px;
+    }
+    .tutor_chat_list {
+        padding-bottom: 20px;
+    }
+    .tutor_chat_dash .messages ul li {
+        width: calc(83% - 25px);
+         margin: 15px 2px 5px 0px;
+    }
+    .tutor_chat_dash .messages ul li.replies p {
+        max-width: 82%;
+    }
+    .tutor_chat_dash .messages ul li.sent p {
+        max-width: 74%;
+    }
+    .tutor_chat_dash .message-input .wrap .attachment {
+        margin-top: -2px;
+        right: 101px;
+    }
+    .tutor_chat_dash .message-input .wrap input {
+        padding: 12px 33px 11px 21px;
+        height: 55px;
+    }
+    #half-stars-example {
+        margin-left: -8px;
+    }
+    .ntfn_txt h3 {
+        font-size: 30px;
+    }
+    .about_head_sec {
+        padding: 30px 0px 90px;
+    }
+    .user_pro_head .media-body {
+        margin-top: 0px;
+        margin-left: 21px;
+    }
+    .user_pro_head .tutr_pro h6 {
+        padding-bottom: 22px;
+    }
+    .filter_head ul li {
+        padding: 5px 15px;
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .user_tutor_btm{
+        text-align: center;
+    }
+    .user_tutor_btm .about_tutrs {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+      .ftr_logo a img {
+        padding-bottom: 40px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin-bottom: 15px;
+    }
+    .btn_login:hover{
+        background: transparent;
+    }
+    .btn_start:hover{
+        background: #ffa62b;
+    }
+    #half-stars-example .rating__label {
+      font-size: 17px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+       
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

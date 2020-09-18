@@ -1,0 +1,5 @@
+
+{
+  "dbUri": "mongodb://127.0.0.1:27017/learnee",
+  "jwtSecret": "cQ79PaY0K/ScHa3cb7glfej3m7g1QdnKvzql8JUJox9cAYNzmTsgsox7AZ6SlgGy8EDIls4Zpw"
+}
